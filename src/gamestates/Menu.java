@@ -66,7 +66,11 @@ public class Menu extends State implements Statemethods {
 	@Override
 	public void mouseReleased(MouseEvent e) {
 		// TODO: foreach MenuButton mb  in buttons
-		// TODO: if isIn(e, mb) then if (mb.isMousePressed()) call mb.applyGameState() and break
+			// TODO: if isIn(e, mb)
+				// TODO: if (mb.isMousePressed())
+					// TODO: call mb.applyGameState()
+					// TODO: break
+
 		// TODO: call resetButtons()
 
 	}
@@ -79,10 +83,12 @@ public class Menu extends State implements Statemethods {
 	@Override
 	public void mouseMoved(MouseEvent e) {
 		// TODO: for each MenuButton mb in buttons
-		// TODO: call mb.setMouseOver(false)
+			// TODO: call mb.setMouseOver(false)
 
 		// TODO: for each MenuButton mb in buttons
-		// TODO: if isIn(e, mb) then call mb.setMouseOver(false) and then break;
+			// TODO: if isIn(e, mb)
+			// TODO: call mb.setMouseOver(false)
+			// TODO: break;
 
 	}
 
