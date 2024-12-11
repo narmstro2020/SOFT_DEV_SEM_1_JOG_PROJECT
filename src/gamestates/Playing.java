@@ -39,7 +39,7 @@ public class Playing extends State implements Statemethods {
 	@Override
 	public void mouseClicked(MouseEvent e) {
 		// TODO: if (e.getButton() is equal to MouseEvent.Button1)
-		// TODO: call player.setAttacking(true)
+			// TODO: call player.setAttacking(true)
 	}
 
 	@Override

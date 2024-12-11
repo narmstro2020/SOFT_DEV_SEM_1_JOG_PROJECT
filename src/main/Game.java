@@ -124,7 +124,7 @@ public class Game implements Runnable {
 
     public void windowFocusLost() {
         // TODO: if Gamestate.state is equal to Gamestate.PLAYING
-        // TODO: call playing.getPlayer().resetDirBoolean()
+            // TODO: call playing.getPlayer().resetDirBoolean()
     }
 
     public Menu getMenu() {

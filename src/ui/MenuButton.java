@@ -46,10 +46,9 @@ public class MenuButton {
 	public void update() {
 		// TODO: set index to 0
 		// TODO if mouseOver
-		// TODO: set index to 1
-		// TODO: end of if statement
+			// TODO: set index to 1
 		// TODO: if mousePressed
-		// TODO: set index to 2
+			// TODO: set index to 2
 	}
 
 	public boolean isMouseOver() {
