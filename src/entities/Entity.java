@@ -18,8 +18,9 @@ public abstract class Entity {
     }
 
     protected void drawHitbox(Graphics g) {
-        // TODO: set the hitbox color to pink with g.setColor(Color.PINK)
-        // TODO: set the hitbox rectangle with g.drawRect((int) hitbox.x, (int) hitbox.y, (int) hitbox.width, (int) hitbox.height)
+        // TODO: call g.setColor(Color.PINK) which will set the hitbox's color
+        // TODO: call g.drawRect((int) hitbox.x, (int) hitbox.y, (int) hitbox.width, (int) hitbox.height)
+        //  which will place a pink rectangle on the screen at the hitbox coordinates
     }
 
     protected void initHitbox(float x, float y, int width, int height) {
@@ -27,7 +28,7 @@ public abstract class Entity {
     }
 
     public Rectangle2D.Float getHitbox() {
-		// TODO: return this hitbox.
+        // TODO: return this hitbox.
     }
 
 }
